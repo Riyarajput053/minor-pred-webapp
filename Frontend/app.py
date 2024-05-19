@@ -32,11 +32,11 @@ lung_cancer_model = joblib.load('Frontend/models/lung_cancer_model.sav')
 # chronic_disease_model = joblib.load('Frontend/models/chronic_model.sav')
 
 # Load the hepatitis prediction model
-hepatitis_model = joblib.load('Frontend/models/hepititisc_model.sav','rb')
+hepatitis_model = joblib.load('Frontend/models/hepititisc_model.sav')
 
 
-liver_model = joblib.load('Frontend/models/liver_model.sav','rb')# Load the lung cancer prediction model
-lung_cancer_model = joblib.load('Frontend/models/lung_cancer_model.sav','rb')
+liver_model = joblib.load('Frontend/models/liver_model.sav')# Load the lung cancer prediction model
+lung_cancer_model = joblib.load('Frontend/models/lung_cancer_model.sav')
 
 
 # sidebar
